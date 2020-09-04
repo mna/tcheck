@@ -1,6 +1,6 @@
 # tcheck
 
-A pure Lua module with no external dependency that provides simple sanity-checks of types for values.
+A pure Lua module with no external dependency that provides simple sanity-checks of types for values. It doesn't aim to turn Lua into a typed language or anything fancy, it's just basically the equivalent of the `luaL_check...` functions in the Lua/C API that you will typically want to have at least on your public functions.
 
 * Canonical repository: https://git.sr.ht/~mna/tcheck
 * Issue tracker: https://todo.sr.ht/~mna/tcheck
